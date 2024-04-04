@@ -1,0 +1,1 @@
+Workship Git & Github - develop on trunk based with Jira and Sprint
