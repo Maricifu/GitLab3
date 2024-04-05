@@ -18,3 +18,5 @@ La actividad busca crear 50 historias de usuario con un desarrollo basado en Tru
 5. Cada participante revisa las historias de usuario asignadas y crea una nueva rama local basada en `master` con el nombre `feature_idhistoriausuario`.
 6. Cada participante comienza a trabajar en su historia de usuario asignada y hace el merges request.
 7. Cada commit debe usar el conventional commit y en el repositorio una vez se haga el merge se debe borrar la rama feature.
+
+<image src="./Captura desde 2024-04-05 16-09-11.png" alt="Descripción de la imagen">
