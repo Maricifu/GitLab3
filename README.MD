@@ -19,8 +19,8 @@ La actividad busca crear 50 historias de usuario con un desarrollo basado en Tru
 6. Cada participante comienza a trabajar en su historia de usuario asignada y hace el merges request.
 7. Cada commit debe usar el conventional commit y en el repositorio una vez se haga el merge se debe borrar la rama feature.
 
-#Distribucion en Jira
+# Distribucion en Jira
 <image src="./Captura desde 2024-04-05 16-09-11.png" alt="Descripción de la imagen">
 
-#Sesion de trabajo 5 de Abril 2024
+# Sesion de trabajo 5 de Abril 2024
 <image src="./Captura desde 2024-04-05 16-09-11.png" alt="Descripción de la imagen">
