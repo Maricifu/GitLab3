@@ -1,0 +1,38 @@
+:root{
+    --var-header: rgb(48, 19, 4);
+    --var-menu: rgb(102, 71, 57);
+    --var-main: rgb(255, 239, 231);
+}
+
+html{
+    min-height: 960px
+}
+
+#header{
+    display: flex;
+    padding: 5px;
+    background-color: var(--var-header);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h1{
+    margin: 0%;
+}
+
+#mainmenu{
+    background-color: var(--var-menu);
+    color: white;
+}
+
+#mainhome{
+    display: flex;
+    min-height: 900px;
+    width: auto;
+    padding: 10px;
+    margin: 0%;
+    background-color: var(--var-main);
+    justify-content: center;
+    align-items: center;
+}
