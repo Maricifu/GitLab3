@@ -1,7 +1,7 @@
 :root{
     --var-header: rgb(48, 19, 4);
     --var-menu: rgb(102, 71, 57);
-    --var-main: rgb(255, 239, 231);
+    --var-main: rgb(255, 245, 240);
 }
 
 html{
@@ -11,7 +11,7 @@ html{
 #header{
     display: flex;
     padding: 5px;
-    background-color: var(--var-header);
+    background-color: var(--var-menu);
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +22,7 @@ html{
 }
 
 #mainmenu{
-    background-color: var(--var-menu);
+    background-color: var(--var-header);
     color: white;
 }
 
@@ -35,4 +35,8 @@ html{
     background-color: var(--var-main);
     justify-content: center;
     align-items: center;
+}
+
+#imagechocoate img{
+    height: 0vw;
 }
