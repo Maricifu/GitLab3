@@ -1,0 +1,73 @@
+:root {
+    --var-header: rgb(48, 19, 4);
+    --var-menu: rgb(102, 71, 57);
+    --var-main: rgb(255, 239, 231);
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    padding: 5px;
+    background-color: var(--var-header);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#mainmenu {
+    background-color: var(--var-menu);
+    color: white;
+}
+
+#mainhome {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: var(--var-main);
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 5%;
+}
+
+#cabeceralogin{
+    background-color: var(--var-menu);
+    color: white;
+}
+
+.card-body {
+    background-color: var(--var-main);
+}
+
+.form-label {
+    color: var(--var-header);
+}
+
+#botonlogin {
+    background-color: var(--var-menu);
+    border-color: var(--var-header);
+}
+
+#botonlogin:hover {
+    background-color: rgb(33, 13, 3);
+    border-color: rgb(33, 13, 3);
+}
