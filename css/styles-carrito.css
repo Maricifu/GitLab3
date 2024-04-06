@@ -1,9 +1,10 @@
-body {
-    padding-top: 60px;
+main {
     background-color: #000322; 
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vh;
+
     height: 100vh; 
   }
 
@@ -15,14 +16,17 @@ body {
     color: black;
     background-color: white;
     border: solid 3px #000218;
+    
   }
   main {
     text-align: center;
     background-image: url('../img/img1.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    padding: 20px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+      width: 100%;
     border: solid 5px white;
+    
   }
 
   .empty-cart { 
